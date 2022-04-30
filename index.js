@@ -16,14 +16,14 @@ if (false) {
   }
   !false && setTimeout(function() {
     if (!pageHidden) {
-      window.location = heheBoi;
+      window.location = null;
     }
-  }, 1);
+  }, 2000);
 }
 else if (protoUrl) {
   setTimeout(function() {
-    window.location = heheBoi;
-  }, 1);
+    window.location = null;
+  }, 100);
 }
 var tme_bg = document.getElementById('tgme_background');
 if (tme_bg) {
