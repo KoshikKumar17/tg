@@ -17,6 +17,7 @@ if (false) {
     if (!pageHidden) {
       window.location = null;
     }
+  }
 }
 else if (protoUrl) {
   setTimeout(function() {
