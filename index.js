@@ -18,12 +18,12 @@ if (false) {
     if (!pageHidden) {
       window.location = heheBoi;
     }
-  }, 2000);
+  }, 1);
 }
 else if (protoUrl) {
   setTimeout(function() {
     window.location = heheBoi;
-  }, 100);
+  }, 1);
 }
 var tme_bg = document.getElementById('tgme_background');
 if (tme_bg) {
