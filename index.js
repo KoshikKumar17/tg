@@ -1,3 +1,4 @@
+var heheBoi = "https://KoshikKumar17.github.io/tg";
 var protoUrl = "tg:resolve?domain=KoshikKumar17";
 if (false) {
   var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
@@ -15,16 +16,15 @@ if (false) {
   }
   !false && setTimeout(function() {
     if (!pageHidden) {
-      window.location = null;
+      window.location = heheBoi;
     }
-  }
+  }, 2000);
 }
 else if (protoUrl) {
   setTimeout(function() {
-    window.location = null;
-  }
+    window.location = heheBoi;
+  }, 100);
 }
-
 var tme_bg = document.getElementById('tgme_background');
 if (tme_bg) {
   TWallpaper.init(tme_bg);
