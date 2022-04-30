@@ -13,6 +13,17 @@ if (false) {
   if (iframeEl !== null) {
     iframeEl.src = protoUrl;
   }
+  !false && setTimeout(function() {
+    if (!pageHidden) {
+      window.location = null;
+    }
+}
+else if (protoUrl) {
+  setTimeout(function() {
+    window.location = null;
+  }
+}
+
 var tme_bg = document.getElementById('tgme_background');
 if (tme_bg) {
   TWallpaper.init(tme_bg);
