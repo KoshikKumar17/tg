@@ -1,30 +1,5 @@
-var heheBoi = "https://KoshikKumar17.github.io/tg";
+
 var protoUrl = "tg:resolve?domain=KoshikKumar17";
-if (false) {
-  var iframeContEl = document.getElementById('tgme_frame_cont') || document.body;
-  var iframeEl = document.createElement('iframe');
-  iframeContEl.appendChild(iframeEl);
-  var pageHidden = false;
-  window.addEventListener('pagehide', function () {
-    pageHidden = true;
-  }, false);
-  window.addEventListener('blur', function () {
-    pageHidden = true;
-  }, false);
-  if (iframeEl !== null) {
-    iframeEl.src = protoUrl;
-  }
-  !false && setTimeout(function() {
-    if (!pageHidden) {
-      window.location = null;
-    }
-  }, 2000);
-}
-else if (protoUrl) {
-  setTimeout(function() {
-    window.location = null;
-  }, 100);
-}
 var tme_bg = document.getElementById('tgme_background');
 if (tme_bg) {
   TWallpaper.init(tme_bg);
